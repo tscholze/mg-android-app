@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MGTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">#E6782D</item>
+        <item name="android:colorPrimaryDark">#ffd47325</item>
+        <item name="android:colorAccent">@android:color/darker_gray</item>
+        <item name="android:navigationBarColor">#ffd47325</item>
+        <item name="android:actionMenuTextColor">#ffeeeeee</item>
+        <item name="android:actionBarStyle">@style/MGTheme.ActionBarStyle</item>
+    </style>
+
+    <style name="MGTheme.ActionBarStyle" parent="android:Widget.Material.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/MGTheme.ActionBar.TitleTextStyle</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="MGTheme.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#E6782D</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
+</resources>

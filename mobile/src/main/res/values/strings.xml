@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MG App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="item_list_headline">Mobile Geeks Posts</string>
+    <string name="title_activity_post_detail">PostDetail</string>
+
+</resources>
